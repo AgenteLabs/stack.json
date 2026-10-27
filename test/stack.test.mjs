@@ -242,7 +242,7 @@ test('node vendor-stack.mjs check stack.json exits 0 and says so', () => {
   const r = run('check', 'stack.json');
   assert.equal(r.status, 0, r.stdout + r.stderr);
   assert.match(r.stdout, /web4\/1 valid/);
-  assert.match(r.stdout, /measured 2026-09-28/);
+  assert.match(r.stdout, /measured 2026-10-27/);
 });
 
 test('node vendor-stack.mjs check <invalid vector> prints the finding and exits 1', () => {
