@@ -65,7 +65,7 @@ test('the charter declares exactly the five roles MESH.md names, each working in
   const covered = new Set(c.roles.flatMap((r) => r.worksIn ?? []));
   for (const r of repoNames) assert.ok(covered.has(r), `no role works in "${r}"`);
   assert.ok(
-    c.repositories.some((r) => r.url === 'github.com/FlashyLabs/stack.json'),
+    c.repositories.some((r) => r.url === 'github.com/AgenteLabs/stack.json'),
     'the charter does not name the repository it lives in',
   );
 });

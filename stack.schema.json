@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/FlashyLabs/stack.json/stack.schema.json",
+  "$id": "https://github.com/AgenteLabs/stack.json/stack.schema.json",
   "title": "web4/1 — the Web 4 stack index",
   "description": "One document describing every layer of the agentic-internet stack the Flashy / Gord estate builds, and the repository that carries each part. Served at /.well-known/stack.json. Keys prefixed x- are extensions and are allowed anywhere; every other key is closed.",
   "type": "object",
