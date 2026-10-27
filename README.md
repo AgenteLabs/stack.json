@@ -6,7 +6,7 @@ agentic-internet infrastructure map the Flashy / Gord estate builds: nine
 layers, each phrased as the question it answers, and for each layer the
 repositories that carry its specification, implementation, product or tooling,
 with the status and the GitHub visibility of each as **measured**, not as
-intended. It is the twin of the human hub, [FlashyLabs/web4](https://github.com/FlashyLabs/web4),
+intended. It is the twin of the human hub, [AgenteLabs/web4](https://github.com/AgenteLabs/web4),
 and is meant to be served at `https://<hub-domain>/.well-known/stack.json`.
 
 ## Quick start
@@ -75,19 +75,19 @@ Run `node vendor-stack.mjs list` for the same table with status and visibility.
 
 ## Links
 
-**Hub:** [FlashyLabs/web4](https://github.com/FlashyLabs/web4) — the human-readable twin.
+**Hub:** [AgenteLabs/web4](https://github.com/AgenteLabs/web4) — the human-readable twin.
 
-**Identity** · [flashyid-spec](https://github.com/FlashyLabs/flashyid-spec) · [flashyid](https://github.com/FlashyLabs/flashyid)
-**Graph** · [agentgraph](https://github.com/FlashyLabs/agentgraph) · [therealm](https://github.com/FlashyLabs/therealm)
-**Discovery** · [intent-spec](https://github.com/FlashyLabs/intent-spec) · [intentmesh](https://github.com/FlashyLabs/intentmesh)
-**Trust** · [magician](https://github.com/FlashyLabs/magician) · [Rites-Network](https://github.com/FlashyLabs/Rites-Network) · trustgraph (planned; no repository yet)
-**Gateway** · [agent-wellknown](https://github.com/FlashyLabs/agent-wellknown) · [agent-dns](https://github.com/FlashyLabs/agent-dns) · [bastion](https://github.com/FlashyLabs/bastion)
-**Representation** · [aao](https://github.com/FlashyLabs/aao)
-**Execution** · [flashyos](https://github.com/FlashyLabs/flashyos) (private — its public face is [flashyos.com](https://flashyos.com), which serves the `flashyos/1` handshake and the AAO charter) · [flashyos-spec](https://github.com/FlashyLabs/flashyos-spec) · [flashyos-tools](https://github.com/FlashyLabs/flashyos-tools) · [agentfile](https://github.com/FlashyLabs/agentfile)
-**Commerce** · [agentpay](https://github.com/FlashyLabs/agentpay) · [flashyos-wdk](https://github.com/FlashyLabs/flashyos-wdk) · [flashy-rails](https://github.com/FlashyLabs/flashy-rails) · [flashy-ledger](https://github.com/FlashyLabs/flashy-ledger) · [flashy-contracts](https://github.com/FlashyLabs/flashy-contracts)
-**Audit** · agentledger (planned; no repository yet) · [chronicle](https://github.com/FlashyLabs/chronicle) · [flashy-network](https://github.com/FlashyLabs/flashy-network)
-**Tooling** · [conformance-kit](https://github.com/FlashyLabs/conformance-kit) · [mesh-lint](https://github.com/FlashyLabs/mesh-lint) · [flashy-infra](https://github.com/FlashyLabs/flashy-infra)
-**Teaching** · [flashy-docs](https://github.com/FlashyLabs/flashy-docs) · [flashy-examples](https://github.com/FlashyLabs/flashy-examples) · [web4](https://github.com/FlashyLabs/web4) · [stack.json](https://github.com/FlashyLabs/stack.json)
+**Identity** · [flashyid-spec](https://github.com/AgenteLabs/flashyid-spec) · [flashyid](https://github.com/AgenteLabs/flashyid)
+**Graph** · [agentgraph](https://github.com/AgenteLabs/agentgraph) · [therealm](https://github.com/AgenteLabs/therealm)
+**Discovery** · [intent-spec](https://github.com/AgenteLabs/intent-spec) · [intentmesh](https://github.com/AgenteLabs/intentmesh)
+**Trust** · [magician](https://github.com/AgenteLabs/magician) · [Rites-Network](https://github.com/AgenteLabs/Rites-Network) · trustgraph (planned; no repository yet)
+**Gateway** · [agent-wellknown](https://github.com/AgenteLabs/agent-wellknown) · [agent-dns](https://github.com/AgenteLabs/agent-dns) · [bastion](https://github.com/AgenteLabs/bastion)
+**Representation** · [aao](https://github.com/AgenteLabs/aao)
+**Execution** · [flashyos](https://github.com/AgenteLabs/flashyos) (private — its public face is [flashyos.com](https://flashyos.com), which serves the `flashyos/1` handshake and the AAO charter) · [flashyos-spec](https://github.com/AgenteLabs/flashyos-spec) · [flashyos-tools](https://github.com/AgenteLabs/flashyos-tools) · [agentfile](https://github.com/AgenteLabs/agentfile)
+**Commerce** · [agentpay](https://github.com/AgenteLabs/agentpay) · [flashyos-wdk](https://github.com/AgenteLabs/flashyos-wdk) · [flashy-rails](https://github.com/AgenteLabs/flashy-rails) · [flashy-ledger](https://github.com/AgenteLabs/flashy-ledger) · [flashy-contracts](https://github.com/AgenteLabs/flashy-contracts)
+**Audit** · agentledger (planned; no repository yet) · [chronicle](https://github.com/AgenteLabs/chronicle) · [flashy-network](https://github.com/AgenteLabs/flashy-network)
+**Tooling** · [conformance-kit](https://github.com/AgenteLabs/conformance-kit) · [mesh-lint](https://github.com/AgenteLabs/mesh-lint) · [flashy-infra](https://github.com/AgenteLabs/flashy-infra)
+**Teaching** · [flashy-docs](https://github.com/AgenteLabs/flashy-docs) · [flashy-examples](https://github.com/AgenteLabs/flashy-examples) · [web4](https://github.com/AgenteLabs/web4) · [stack.json](https://github.com/AgenteLabs/stack.json)
 
 A private repository's link resolves only for someone with access; the index
 lists it anyway, because the map is of what exists, not of what a stranger can

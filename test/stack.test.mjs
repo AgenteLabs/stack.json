@@ -106,8 +106,8 @@ test('a planned repo has no url and no visibility; every other repo has both', (
 test('every url points at the FlashyLabs organisation on GitHub', () => {
   for (const { repo } of repos(stack)) {
     if (repo.url === null || repo.url === undefined) continue;
-    assert.ok(repo.url.startsWith('https://github.com/FlashyLabs/'), `${repo.name}: ${repo.url}`);
-    assert.equal(repo.url, `https://github.com/FlashyLabs/${repo.name}`, `${repo.name}: url does not match its name`);
+    assert.ok(repo.url.startsWith('https://github.com/AgenteLabs/'), `${repo.name}: ${repo.url}`);
+    assert.equal(repo.url, `https://github.com/AgenteLabs/${repo.name}`, `${repo.name}: url does not match its name`);
   }
 });
 
@@ -191,7 +191,7 @@ test('schema and checker agree on the closed enums', () => {
 test('schema and checker agree on every pattern, by behaviour and by source', () => {
   const pairs = [
     ['generated', schema.properties.generated.pattern, ['2026-09-28', '2026-9-28', '28/09/2026', '']],
-    ['httpsUrl', schema.$defs.httpsUrl.pattern, ['https://github.com/FlashyLabs/x', 'http://x.y', 'https://a b', 'github.com/x', '']],
+    ['httpsUrl', schema.$defs.httpsUrl.pattern, ['https://github.com/AgenteLabs/x', 'http://x.y', 'https://a b', 'github.com/x', '']],
     ['wellKnownPath', schema.$defs.wellKnownPath.pattern, ['/.well-known/agent', '/.well-known/x.json', '/well-known/x', '/.well-known/', 'x', '']],
     ['contractId', schema.$defs.contractId.pattern, ['trust/1', 'aao/0.1', 'action-ledger/1', 'Trust/1', 'trust v1', 'trust/', '/1', 'trust/1a']],
     ['layerName', layerSchema.properties.name.pattern, ['identity', 'spec-and-impl', 'Identity', '9lives', '']],
@@ -242,7 +242,8 @@ test('node vendor-stack.mjs check stack.json exits 0 and says so', () => {
   const r = run('check', 'stack.json');
   assert.equal(r.status, 0, r.stdout + r.stderr);
   assert.match(r.stdout, /web4\/1 valid/);
-  assert.match(r.stdout, /measured 2026-09-28/);
+  // the date is the document's own `generated`, never a literal: a re-measurement moves both
+  assert.ok(r.stdout.includes(`measured ${stack.generated}`), r.stdout);
 });
 
 test('node vendor-stack.mjs check <invalid vector> prints the finding and exits 1', () => {

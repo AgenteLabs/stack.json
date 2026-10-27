@@ -9,7 +9,7 @@
   "repositories": [
     {
       "name": "stack.json",
-      "url": "github.com/FlashyLabs/stack.json",
+      "url": "github.com/AgenteLabs/stack.json",
       "default": true,
       "holds": [
         "spec",
