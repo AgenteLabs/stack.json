@@ -102,4 +102,4 @@ checker change, a vector for it, and a test that the two agree.
 
 Status: draft; data measured 2026-09-28.
 
-Licensed under Apache-2.0 (holder Flashy Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority. See [`LICENSE`](LICENSE).
+Licensed under Apache-2.0 (holder Agente Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority. See [`LICENSE`](LICENSE).
